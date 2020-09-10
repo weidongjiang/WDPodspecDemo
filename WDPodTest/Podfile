@@ -3,7 +3,9 @@
 
 target 'WDPodTest' do
   
-pod 'WDPodspecDemo'
+#pod 'WDPodspecDemo' '0.0.4'
     pod 'AFNetworking'
+#pod 'WDPodspecDemo',:git=>'https://cocoapods.org/pods/WDPodspecDemo'
+pod 'WDPodspecDemo',:git=>'https://github.com/weidongjiang/WDPodspecDemo.git'
 
 end
