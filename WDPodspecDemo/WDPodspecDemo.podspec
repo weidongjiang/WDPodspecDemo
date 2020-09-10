@@ -8,7 +8,6 @@ Pod::Spec.new do |spec|
                     DESC
   spec.homepage     = "https://github.com/weidongjiang/WDPodspecDemo"
   spec.license      = "MIT"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "weidong" => "275201991@qq.com.com" }
   spec.platform     = :ios
   spec.source       = { :git => "https://github.com/weidongjiang/WDPodspecDemo.git", :tag => "0.0.5" }
